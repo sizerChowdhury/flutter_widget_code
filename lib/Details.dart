@@ -89,7 +89,7 @@ class DetailsPage extends StatelessWidget {
                             text: "Storage",
                             style: TextStyle(
                               fontSize: 28,
-                              color: Colors.black,
+                              color: Colors.green,
                               fontWeight: FontWeight.bold,
                             ),
                             children: [
