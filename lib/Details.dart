@@ -112,13 +112,6 @@ class DetailsPage extends StatelessWidget {
                 ),
               ),
             ),
-            Text('hello'),
-            ElevatedButton(
-              onPressed: () {
-                _launchContact('https://www.youtube.com/');
-              },
-              child: Text('Contact us!'),
-            ),
           ],
         ),
       ),

@@ -44,6 +44,15 @@ class IntroPage extends StatelessWidget {
                     onTap: () {
                       Navigator.pushNamed(context, '/TabSelect');
                     },
+                  ),
+                  ListTile(
+                    leading: Icon(
+                      Icons.home,
+                    ),
+                    title: Text('Slider page'),
+                    onTap: () {
+                      Navigator.pushNamed(context, '/Slider');
+                    },
                   )
                 ],
               ),
