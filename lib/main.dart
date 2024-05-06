@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'Details.dart';
 import 'Intropage.dart';
+import 'TabPageSelector.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => IntroPage(), // Default route
         '/details': (context) => DetailsPage(),
+        '/TabSelect': (context) => TabSelectorPage(),
         // '/third': (context) => ThirdPage(),
       },
     );
